@@ -1,0 +1,16 @@
+# hello_world.py
+
+def say_hello(name):
+    """
+    Prints a greeting message.
+    
+    Parameters:
+    - name (str): The name of the person to greet.
+    """
+    print(f"Hello, {name}!")
+
+if __name__ == "__main__":
+    # Example usage
+    say_hello("Alice")
+    say_hello("Bob")
+
